@@ -24,9 +24,10 @@
         {%- if capsule.head -%}
         <div class="head" id="{{ filename }}">
             {%- if pagename == filename -%}
-            <span class="dot selected"></span> {{ capsule.head }}
+            <span class="dot selected"></span> <span class="dotnext">{{ capsule.head }}</span>
             {%- else -%}
-            <span class="dot nonselected"></span> <a href="{{ site.baseurl }}{{ capsule.url }}">{{ capsule.head }}</a>
+            <span class="dot nonselected"></span> <span class="dotnext"><a
+                    href="{{ site.baseurl }}{{ capsule.url }}">{{ capsule.head }}</a></span>
             {%- endif -%}
         </div>
         {%- endif -%}
