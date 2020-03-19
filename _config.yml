@@ -15,4 +15,4 @@ defaults:
     values:
       layout: "default"
 url: danielarmengolaltayo.github.io
-baseurl: /hyperlink
+# baseurl: /hello

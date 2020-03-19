@@ -3,18 +3,21 @@ layout: default
 ---
 
 <div class="container">
-    <div id="title">
-        <strong>{{ site.data.info.title }}test</strong>
-        <br>
-        <em>{{ site.data.info.tagline }}</em>
+    <div class="content">
+        <div id="title">
+            <span id="daniel"><a href="capsules/daniel.html">{{ site.data.daniel.hello }}</a></span> <strong>∠ Hello!
+                My name is
+                Daniel.</strong>
+        </div>
     </div>
 </div>
-
 <div class="container">
-    <div id="contextHome">
-        {%- include context.html -%}
+    <div id="left">
+        <div class="content">
+            {%- include content.html left="hello" -%}
+        </div>
     </div>
-    <div id="contentHome">
-
+    <div id="right">
+        <div class="content"></div>
     </div>
 </div>

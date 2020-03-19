@@ -23,9 +23,28 @@ p{
     margin-block-end: 1rem;
 }
 
-a { color: red; }//explore branch
+.image-h { width: 80%; }
+.image-v { width: 50%; }
+.media { 
+    text-align: center; 
+    margin-block-start: 1rem;
+    margin-block-end: 3rem;
+}
+
+.intro { 
+    font-style: italic;
+    margin-block-start: 1rem;
+    margin-block-end: 3rem;
+}
+
+a { color: blue; }//explore branch
 a:link, a:visited, a:active{ text-decoration: none; }
 a:hover { text-decoration: underline; }
+
+#daniel a:hover { 
+    color: gray;
+    text-decoration: none; 
+}
 
 //via https://gist.github.com/unruthless/413930
 sup {
@@ -36,111 +55,44 @@ sup {
     top: -0.5em;
 }
 
-ul { padding-inline-start: 20px; }
+ul { 
+    padding-inline-start: 0px;
+    list-style: none;
+}
 
 .container {
     margin: auto;
-    display: flex;
 }
 
-#title{
-    margin: 20px 27px;
-    width: 100%;
-}
-
-#context,
-#contextHome {
-    width: 40%;
-}
-
-#contentHome {
-    width: 60%;
-}
-
-#context,
-#contextHome, 
-#content,
-#contentHome {
-    margin-top: 0px;
-    margin-bottom: 50px;
+.content {
     margin-left: 27px;
     word-break:break-word;
 }
 
-#context { opacity: $opacity; }
-#context:hover { opacity: 1; }
+#title{
+    margin: 20px 0;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 100%;
+}
 
-.chapterTitle {
+#left {
+    width: 40%;
+}
+
+// #left { opacity: $opacity; }
+// #left:hover { opacity: 1; }
+
+.head {
     font-weight: bold;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-block-start: 1rem;
+    margin-block-end: 1rem;
 }
 
 .capsule { margin-left: 15px; }
 
 #body { margin-bottom: 60px; }
 
-#footnotes {
-    font-size: 0.75em;
-    line-height: 1.5em;
-    margin-bottom: 20px;
-}
-
-#footnotes:hover { opacity: 1; }
-
-.footnote {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    display: flex;
-}
-
-.footnoteId { min-width: 20px; }
-
-.footnoteContent { flex-grow: 1; }
-
-.head{
-    // display: grid;
-    // grid-template-columns: 1.6em auto;
-    display: inline-flex;
-}
-
-.dot {
-    height: 1em;
-    width: 1em;
-    border-radius: 50%;
-    position: relative;
-    top: 0.2em;
-    box-sizing: border-box;
-    margin: 0 0.4em;
-}
-.dotnext {
-    flex: 1;
-}
-
-.nonselected {
-    background-color: black;
-    border: 0.3em solid $backgroundColor;
-    // border: 3px solid $backgroundColor;
-}
-
-.head:hover .nonselected {
-    border: 0.3em solid $dotBorderColor;
-    // border: 3px solid $dotBorderColor;
-} 
-
-.selected {
-    background-color: black;
-    border: 0.3em solid $dotBorderColor;
-    // border: 3px solid $dotBorderColor;
-}
-
-.dotcontainer {
-    display: inline-flex;
-    line-height: normal;
-    // display: inline-grid;
-    // grid-template-columns: 1.2em auto;
-}
-.dotcontainer:hover .nonselected { border: 0.3em solid $dotBorderColor; } 
 
 ::-moz-selection { background: $selectedTextColor; } // Code for Firefox
 ::selection { background: $selectedTextColor; }
@@ -149,37 +101,51 @@ ul { padding-inline-start: 20px; }
 // media query breaking points via https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488
 
 @media (min-width: 1281px) {
-    .container { width: 80%; }
+    .container {
+        width: 80%;
+        display: flex;
+    }
     //display context+content
-    #context, #contentHome{ display: block; }
-    #content { width: 60%; }
-    #context, #contextHome, #content, #contentHome { margin-right: 50px; }
-    #footnotes { opacity: $opacity; }
+    // #context { display: block; }
+    #left { width: 40%; }
+    #right { width: 60%; }
+    .content { margin-right: 50px; }
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
-    .container { width: 100%; }
+    .container {
+        width: 100%;
+        display: flex;
+    }
     //display context+content
-    #context, #contentHome { display: block; }
-    #content { width: 60%; }
-    #context, #contextHome, #content, #contentHome { margin-right: 50px; }
-    #footnotes { opacity: $opacity; }
+    // #left { display: block; }
+    #left { width: 40%; }
+    #right { width: 60%; }
+    .content { margin-right: 50px; }
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
-    .container { width: 80%; }
+    .container {
+        width: 80%;
+        display: block;
+    }
     //display content only
-    #context, #contentHome { display: none; }
-    #contextHome, #content { width: 100%; } 
-    #context, #contextHome, #content { margin-right: 27px; }
-    #footnotes { opacity: 1; }
+    // #left { display: none; }
+    #left, #right { 
+        width: 100%;
+    } 
+    .content { margin-right: 27px; }
 }
 
 @media (min-width: 0px) and (max-width: 767px) { // min-width: 320px
-    .container { width: 100%; }
+    .container {
+        width: 100%;
+        display: block;
+    }
     //display content only
-    #context, #contentHome { display: none; }
-    #contextHome, #content { width: 100%; }
-    #context, #contextHome, #content { margin-right: 27px; }
-    #footnotes { opacity: 1; }
+    // #left { display: none; }
+    #left, #right { 
+        width: 100%; 
+    }
+    .content { margin-right: 27px; }
 }

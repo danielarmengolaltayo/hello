@@ -2,19 +2,17 @@
 layout: default
 ---
 
-<div class="container">
-    <div id="title">
-        <a href="{{ site.baseurl }}/index.html"><strong>{{ site.data.info.title }}</strong></a>
-        <br>
-        <em>{{ site.data.info.tagline }}</em>
-    </div>
-</div>
+{%- include header.html daniel=page.left -%}
 
 <div class="container">
-    <div id="context">
-        {%- include context.html -%}
+    <div id="left">
+        <div class="content">
+            {%- include content.html left=page.left -%}
+        </div>
     </div>
-    <div id="content">
-        {%- include content.html -%}
+    <div id="right">
+        <div class="content">
+            {%- include content.html right=page.right -%}
+        </div>
     </div>
 </div>
