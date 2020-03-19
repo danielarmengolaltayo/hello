@@ -1,4 +1,5 @@
 ---
+layout: capsule
 left: past
 right: businesscards
 daniel: Let's connect the dots that bring me here.

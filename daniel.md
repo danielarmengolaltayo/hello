@@ -1,4 +1,5 @@
 ---
+layout: capsule
 left: daniel
 daniel: I would love to hear from you.
 image: id.gif

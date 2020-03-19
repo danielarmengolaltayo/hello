@@ -1,4 +1,5 @@
 ---
+layout: capsule
 left: present
 daniel: It is time to upgrade our digital experience.
 ---

@@ -1,8 +1,8 @@
 ---
+layout: capsule
 left: past
 right: invaders
 daniel: Let's connect the dots that bring me here.
-# head: Invaders, 2008
 image-v: invaders.jpg
 ---
 **Invaders, 2008**

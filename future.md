@@ -1,4 +1,5 @@
 ---
+layout: capsule
 left: future
 daniel: I am truly captivated by the nature of human behavior.
 ---

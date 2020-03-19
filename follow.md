@@ -1,8 +1,8 @@
 ---
+layout: capsule
 left: past
 right: follow
 daniel: Let's connect the dots that bring me here.
-# head: Follow, 2018
 image-h: follow.gif
 intro: Interactive performance. From the 24th of March till the 13th of May, six days per week, around seven hours and a half per day, following the movements of the audience in a delimited space, using a VR headset and two controllers.
 ---

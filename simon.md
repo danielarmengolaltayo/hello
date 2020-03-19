@@ -1,8 +1,8 @@
 ---
+layout: capsule
 left: past
 right: simon
 daniel: Let's connect the dots that bring me here.
-# head: Simon, 2013
 image-h: simon.gif
 ---
 **Simon, 2013** <sup>[<a href="https://www.flickr.com/photos/danielarmengolaltayo/sets/72157696451678665">gallery</a>]</sup>
