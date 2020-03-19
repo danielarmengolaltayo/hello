@@ -6,7 +6,7 @@ daniel: Let's connect the dots that bring me here.
 image-h: follow.gif
 intro: Interactive performance. From the 24th of March till the 13th of May, six days per week, around seven hours and a half per day, following the movements of the audience in a delimited space, using a VR headset and two controllers.
 ---
-**Follow, 2018** <sup>[<a href="https://vimeo.com/265280923">video</a>] [<a href="https://www.flickr.com/photos/danielarmengolaltayo/sets/72157697241622560">gallery</a>]</sup>
+**Follow, 2018** <sup>[<a href="https://vimeo.com/265280923" target="_blank">video</a>] [<a href="https://www.flickr.com/photos/danielarmengolaltayo/sets/72157697241622560" target="_blank">gallery</a>]</sup>
 
 We live together in a beautiful but unbalanced world, where the fears and interests of some, design the behaviours of many.
 

@@ -7,4 +7,4 @@ I dedicated my last years doing research on how we manage information, and more 
 
 I decided to focus my attention on the Web, that place where many of us meet daily to frantically exchange all kinds of stories.
 
-I wrote a text <sup>[<a href="https://danielarmengolaltayo.github.io/hyperlink/index.html">The Hyperlink Delusion</a>]</sup> to develop a little bit more about the reasons behind my commitment.
+I wrote a text <sup>[<a href="https://danielarmengolaltayo.github.io/hyperlink/index.html" target="_blank">The Hyperlink Delusion</a>]</sup> to develop a little bit more about the reasons behind my commitment.
