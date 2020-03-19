@@ -3,7 +3,7 @@ layout: capsule
 left: past
 right: somethingiswrong
 daniel: Let's connect the dots that bring me here.
-video: '<iframe width="560" height="315" src="https://www.youtube.com/embed/sl2VxV1OF_k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+video: '<div class="youtube"><iframe width="560" height="315" src="https://www.youtube.com/embed/sl2VxV1OF_k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>'
 ---
 **Something is wrong, 2017**
 
