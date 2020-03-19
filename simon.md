@@ -13,4 +13,4 @@ Changing the way to interact with the game, the installation engages people to r
 
 <br>
 
-09/03/13 → 03/09/13 ON! Handcrafted Digital Playgrounds, Contemporary Arts Center, Cincinnati, US.
+09/03/13 → 03/09/13 *ON! Handcrafted Digital Playgrounds, Contemporary Arts Center, Cincinnati, US.*
