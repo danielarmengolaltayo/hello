@@ -5,7 +5,7 @@ right: simon
 daniel: Let's connect the dots that bring me here.
 image-h: simon.gif
 ---
-**Simon, 2013** <sup>[<a href="https://www.flickr.com/photos/danielarmengolaltayo/sets/72157696451678665">gallery</a>]</sup>
+**Simon, 2013** <sup>[<a href="https://www.flickr.com/photos/danielarmengolaltayo/sets/72157696451678665" target="_blank">gallery</a>]</sup>
 
 Based on the electronic board game with the same name, the piece takes its gameplay and proposes a new approach for the interface.
 
