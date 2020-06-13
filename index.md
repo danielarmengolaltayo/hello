@@ -8,6 +8,6 @@ Did you ever stop for a while to watch, to genuinely observe how others behave? 
 
 I have been wondering about how we connect and relate to ourselves and others, designing experiences to engage people to participate in the conversation <sup>[<a href="past.html">what I did</a>]</sup>.
 
-Now I am focused on how we can collectively update the Web, understanding the Web as the epicenter of our hyperconnected world <sup>[<a href="present.html">what I am doing</a>]</sup>.
+Now I am focused on how we can collectively upgrade the Web, understanding the Web as the epicenter of our hyperconnected world <sup>[<a href="present.html">what I am doing</a>]</sup>.
 
 ↑ Click my face to get in touch.
