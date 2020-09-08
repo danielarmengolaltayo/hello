@@ -1,0 +1,248 @@
+html,
+body {
+    margin: 0;
+    width: 100%;
+}
+
+html {
+    font-size: 1em;
+}
+
+body {
+    background-color: #e2e2e2;
+    /* font-family: 'Barlow', sans-serif; */
+    font-family: sans-serif;
+    /* font-weight: bold; */
+    /* line-height: 1.4rem; */
+    /* line-height: 1.2rem; */
+    color: black;
+}
+
+.body-margins {
+    margin: 25px;
+}
+
+img {
+    display: block;
+}
+
+.thumb {
+    /* max-width: 1.5rem; */
+    max-height: 2rem;
+    /* vertical-align: text-bottom; */
+}
+
+.header {
+    /* background-color: salmon; */
+    width: 100%;
+    display: inline-flex;
+}
+
+.container {
+    width: 100%;
+}
+
+.content {
+    /* width: 100%; */
+    padding: 25px;
+    display: inherit;
+    /* there are 10px from other margins, so in total is 10+30=40px */
+    margin-bottom: 50px;
+}
+
+.content-gallery {
+    width: 50%;
+    margin: 25px;
+}
+
+.gallery {
+    display: inline-flex;
+}
+
+.menu-section {
+    margin: 1.1rem 25px;
+    display: inline-block;
+    /* there are 10px from other margins, so in total is 10+30=40px */
+    /* margin-bottom: 50px; */
+}
+
+.left {
+    /* background-color: palegoldenrod; */
+}
+
+.right {
+    /* background-color: paleturquoise; */
+}
+
+.full {
+    display: block;
+}
+
+.media {
+    width: 100%;
+}
+
+.media-footer {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    margin-top: 10px;
+}
+
+.text {
+    position: relative;
+    top: -0.3rem;
+    margin-bottom: -0.8rem;
+}
+
+.text-small {
+    font-size: 0.75rem;
+    line-height: 1rem;
+    /* position: relative;
+    top: -0.2rem;
+    margin-bottom: -0.4rem; */
+}
+
+.text-medium {
+    font-size: 1.4rem;
+    line-height: 1.7rem;
+    position: relative;
+    top: -0.3rem;
+    margin-bottom: -0.8rem;
+}
+
+.text-big {
+    font-size: 2rem;
+    line-height: 2.4rem;
+    /* position: relative;
+    top: -0.3rem;
+    margin-bottom: -0.8rem; */
+}
+
+.popup-element {
+    /* font-family: Arial, Helvetica, sans-serif; */
+    display: none;
+}
+
+.gray {
+    color: gray !important;
+}
+
+.header {
+    color: black;
+    margin: 1.1rem 25px;
+    width: auto;
+}
+
+.header:hover .popup-element {
+    /* display: initial; */
+    display: inline-block;
+}
+
+.header-content {
+    display: inline-block;
+}
+
+.menu-link {
+    display: inline-block;
+}
+
+.menu-link:hover .popup-element {
+    display: inline-block;
+}
+
+.gallery-link {
+    display: inline-block;
+}
+
+.gallery-link:hover .popup-element {
+    display: inline-block;
+    position: absolute;
+}
+
+.description {
+    /* position: relative; */
+    display: inline-block;
+}
+
+.menu-label {
+    padding: 0 25px;
+    display: inline-block;
+}
+
+.name {
+    /* position: relative; */
+    display: inline-block;
+
+}
+
+.empty-space {
+
+    height: 30px;
+    width: 100%;
+}
+
+.margin-top-small {
+    margin-top: 10px;
+}
+
+.margin-bottom-small {
+    margin-bottom: 10px;
+}
+
+.margin-bottom-big {
+    margin-bottom: 50px;
+}
+
+.margin-bottom-negative {
+    margin-bottom: -25px;
+}
+
+.menu-section a {
+    color: black;
+}
+
+a {
+    color: blue;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    text-decoration: none;
+}
+
+a:hover {
+    color: black;
+}
+
+.out:hover {
+    color: blue;
+}
+
+
+
+/* media query breaking points via https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488 */
+
+@media (min-width: 1025px) {
+    .container {
+        display: inline-flex;
+    }
+
+    .left,
+    .right {
+        width: 50%;
+    }
+}
+
+@media (max-width: 1024px) {
+    .container {
+        display: block;
+    }
+
+    .left,
+    .right {
+        width: 100%;
+    }
+
+}
