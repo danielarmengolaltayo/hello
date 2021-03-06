@@ -220,6 +220,42 @@ a:hover {
     color: blue;
 }
 
+.pricetag {
+    background-color: red;
+    border: none;
+    color: #e2e2e2;
+    padding: 10px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.4rem;
+    margin: 0px;
+    cursor: pointer;
+    border-radius: 200px;
+    /* position: relative;
+    top: -4px; */
+}
+
+.pricetag:hover {
+    background-color: black;
+}
+
+.button {
+    background-color: black;
+    border: none;
+    color: #e2e2e2;
+    padding: 10px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.75rem;
+    margin: 0px;
+    cursor: pointer;
+    border-radius: 200px;
+    /* position: relative;
+    top: -4px; */
+}
+
 
 
 /* media query breaking points via https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488 */
