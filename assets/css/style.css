@@ -256,7 +256,79 @@ a:hover {
     top: -4px; */
 }
 
+.dot {
+    width: 20px;
+    height: 20px;
+    border: none;
+    display: inline-block;
+    text-align: center;
+    line-height: 1.4rem;
+    /* padding: 2px 6px; */
+    border-radius: 50%;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    cursor: pointer;
+}
 
+.label-sold,
+.label-available,
+.label-reserved {
+    padding: 5px 10px;
+    margin: 10px;
+    border-radius: 12px;
+}
+
+.label-sold {
+    color: red;
+    border: 1px solid red;
+}
+
+.label-reserved {
+    border: 1px solid #bbb;
+    color: #bbb;
+}
+
+.label-available {
+    border: 1px solid black;
+}
+
+.sold {
+    color: red;
+    border: 1px solid red;
+}
+
+.sold:hover {
+    background-color: red;
+    color: #e2e2e2;
+}
+
+.available {
+    border: 1px solid black;
+}
+
+.available:hover {
+    background-color: black;
+    color: #e2e2e2;
+}
+
+.reserved {
+    border: 1px solid #bbb;
+    color: #bbb;
+}
+
+.reserved:hover {
+    background-color: #bbb;
+    color: #e2e2e2;
+}
+
+table {
+    border: none;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 2px;
+}
 
 /* media query breaking points via https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488 */
 
