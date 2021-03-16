@@ -345,6 +345,11 @@ td {
     height: 100%;
 }
 
+.box {
+    background-color: #f2f2f2;
+    padding: 25px;
+}
+
 /* media query breaking points via https://gist.github.com/gokulkrishh/242e68d1ee94ad05f488 */
 
 @media (min-width: 1025px) {
